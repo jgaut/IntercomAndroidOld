@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Interphone Beta</string>
+    <string name="txt_go">Prendre l\'appel</string>
+    <string name="txt_opendoor">Open Door</string>
+    <string name="txt_stop">Rejeter l\'appel</string>
+    <string name="txt_stop2">Clore l\'appel</string>
+    <string name="txt_up">Up</string>
+    <string name="txt_down">Down</string>
+    <string name="txt_50">50%</string>
+    <string name="txt_TS">Test Sound</string>
+    <string name="txt_volume">Volume</string>
+    
+</resources>

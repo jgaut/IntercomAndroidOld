@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MyAppTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#C5D9E2"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Main" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        style="@style/MyAppTheme"
+    android:background="#C5D9E2"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal">
+        
+            <Button
+                android:id="@+id/buttongo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/shapegoup"
+                android:minHeight="110dp"
+                android:text="@string/txt_go"
+                android:textSize="20sp"
+                android:visibility="visible"
+                android:width="150dp" /> 
+            
+                <Button
+                    android:id="@+id/buttonclose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/shapeclose"
+                    android:minHeight="110dp"
+                    android:text="@string/txt_stop"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    android:width="150dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/ButtonTS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shapeopendoor"
+            android:minHeight="100dp"
+            android:minWidth="100dp"
+            android:text="@string/txt_TS"
+            android:textSize="30sp"
+            android:visibility="visible"
+            android:width="100dp" />
+
+     
+
+        <Button
+            android:id="@+id/buttonopendoor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shapeopendoor"
+            android:minHeight="100dp"
+            android:minWidth="100dp"
+            android:text="@string/txt_opendoor"
+            android:textSize="30sp"
+            android:visibility="visible"
+            android:width="100dp" />
+
+    </LinearLayout>
+   <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+       <TextView
+           android:id="@+id/textVolume"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/txt_volume" />
+
+        </LinearLayout>
+    <LinearLayout
+    style="@style/MyAppTheme"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#C5D9E2"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ButtonUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shapegoup"
+            android:minHeight="100dp"
+            android:text="@string/txt_up"
+            android:textSize="30sp"
+            android:visibility="visible"
+            android:width="100dp" />
+
+        <Button
+            android:id="@+id/button50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shapegoup"
+            android:minHeight="100dp"
+            android:text="@string/txt_50"
+            android:textSize="30sp"
+            android:visibility="visible"
+            android:width="100dp" />
+
+        <Button
+            android:id="@+id/buttonDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shapegoup"
+            android:minHeight="100dp"
+            android:text="@string/txt_down"
+            android:textSize="30sp"
+            android:visibility="visible"
+            android:width="100dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

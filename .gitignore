@@ -1,0 +1,8 @@
+*.class
+/gen
+*.crt
+/bin
+/gst-build
+/gst-build-armeabi
+/libs
+/obj

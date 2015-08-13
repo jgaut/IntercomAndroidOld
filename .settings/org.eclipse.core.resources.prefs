@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//jni/stream.c=UTF-8
+encoding//src/com/interphone/beta/Main.java=UTF-8
+encoding//src/com/interphone/beta/broadcaster/MyBroadcasterPublish.java=UTF-8
+encoding//src/com/interphone/beta/service/MyServicePublish.java=UTF-8
+encoding//src/com/interphone/beta/service/MyServiceSocket.java=UTF-8
+encoding//src/com/interphone/beta/socket/Communicator.java=UTF-8
+encoding//src/com/interphone/beta/socket/MyPublish.java=UTF-8
+encoding//src/com/interphone/beta/socket/MySocket.java=UTF-8

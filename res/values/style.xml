@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 
+    <style name="MyAppTheme" parent="android:Theme.Light.NoTitleBar">
+        <!--
+            Ici vous pouvez rajouter tous les styles que vous souhaitez
+        -->
+        
+    </style>
+ 
+</resources>
