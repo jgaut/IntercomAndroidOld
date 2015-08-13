@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.ui.externaltools.ProgramBuilderLaunchConfigurationType">
+<stringAttribute key="org.eclipse.debug.core.ATTR_REFRESH_SCOPE" value="${project}"/>
 <mapAttribute key="org.eclipse.debug.core.environmentVariables">
 <mapEntry key="GSTREAMER_SDK_ROOT_ANDROID" value="/Users/jeremy/Documents/Android/gstreamer-1.0-android-arm-release-1.4.4"/>
 </mapAttribute>
@@ -7,5 +8,5 @@
 <stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="/Users/jeremy/Documents/Android/android-ndk-r9d/ndk-build"/>
 <stringAttribute key="org.eclipse.ui.externaltools.ATTR_RUN_BUILD_KINDS" value="full,incremental,"/>
 <booleanAttribute key="org.eclipse.ui.externaltools.ATTR_TRIGGERS_CONFIGURED" value="true"/>
-<stringAttribute key="org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY" value="${workspace_loc:/Interphone_android}"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY" value="${workspace_loc:/IntercomAndroid}"/>
 </launchConfiguration>
